@@ -4,6 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haydn's Portfolio</title>
+        <style>
+        body {
+            font-family: Arial;
+            color: purple;
+        }
+
+        #main-header {
+            background-color: bisque;
+            text-align: center;
+            padding: 5%;
+        }
+
+        h1 {
+            font-size: xx-large;
+        }
+
+        h2 {
+            color: crimson;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .card {
+            padding: 5%;
+            border: 1px solid blueviolet;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        a {
+            color: chocolate;
+        }
+
+        footer {
+            background-color: blanchedalmond;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,7 +57,7 @@
         </ul>
     </nav>
     <main>
-        <section>
+        <section class="card" id="about">
         <h2> About Me </h2>
         <p> 
             Hi, I'm Haydn. I'm currently a third year student studying a BSc in Computer Science at Wits university.
@@ -26,7 +66,7 @@
             I plan to finish my undergraduate at WITS university and acquire a BSc in Computer Science and Mathematics degree before aiming to have a full time programming job, however finding a part time job sooner for experience during my downtime would be ideal. Outside of general software development/engineering, low level and performance focused programming is of particular interest to me (notably in computer graphics and integrated hardware). I know a wide range of programming languages and can adapt quickly to new ones, meaning that I can take on any kind of programming-related task that is put in front of me. I've worked productively in multiple teams via GitHub on a few projects in the past, and can easily mesh with any future teams I may find myself with.
         </p>
         </section>
-        <article>
+        <article class="card" id="projects">
             <h3> Latest Project </h3>
             <p>
                 An interactive campus map for Wits, which hopes to serve as an easy way to find the building given only room codes for each venue.
